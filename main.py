@@ -11,7 +11,9 @@ from selenium.common.exceptions import TimeoutException
 import os
 
 # Streamlit app URL from environment variable (or default)
-STREAMLIT_URL = os.environ.get("STREAMLIT_APP_URL", "https://global-wash-monitor.streamlit.app/")
+STREAMLIT_URL = os.environ.get("STREAMLIT_APP_URL", "https://mncah-surveillance.streamlit.app/")
+# STREAMLIT_URL = os.environ.get("STREAMLIT_APP_URL", "https://global-wash-monitor.streamlit.app/")
+
 
 def main():
     options = Options()
